@@ -45,15 +45,15 @@ namespace ChallengesWithTestsMark8
 
         public string GetGreeting(string nameOfPerson)
         {
-            // Redo
-            //if (nameOfPerson.Length == 0)
-            //{
-            //    return "Hello!";
-            //}
-            //else
-            //{
-            //    return $"Hello, {nameOfPerson}!";
-            //}
+             //Redo
+            if (nameOfPerson.Length == 0)
+            {
+                return "Hello!";
+            }
+            else
+            {
+                return $"Hello, {nameOfPerson}!";
+            }
         }
 
         public string GetHey()
